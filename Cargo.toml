@@ -1,0 +1,10 @@
+[package]
+name = "rs-py-ipc"
+version = "0.1.0"
+authors = ["johncf <johncf@protonmail.com>"]
+
+[dependencies]
+uuid = { version = "0.4", features = ["serde", "v4"] }
+serde = "0.9"
+serde_json = "0.9"
+serde_derive = "0.9"
